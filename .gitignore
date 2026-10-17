@@ -1,0 +1,32 @@
+# Session Journals & Ledgers
+logs/
+prismstrike_*.log.txt
+prismstrike_*.events.json
+prismstrike_*.summary.json
+
+# Raw Capture Dumps & Binary Artifacts
+logs/artifacts/
+*.pcap
+*.pcapng
+*.cap
+*.tmp
+.purge_staging_*/
+
+# Local Credentials & Secrets
+.env
+.env.*
+*private_key*.pem
+prismstrike_bundle_*.zip
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db
